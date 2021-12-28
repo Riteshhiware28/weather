@@ -80,7 +80,7 @@ app.get('/posts',(req,res)=>{
 
 
 app.get('/presentation',(req,res)=>{
-    res.send("<h1>Presentation page</h1> <p>This presentation page is created by Rifah</p>")
+    res.send("<h1>Presentation page</h1> <p>This presentation page is created by Ritesh</p>")
 })
 app.listen(port,()=>{
     console.log(`Server is running at port ${port}`)
